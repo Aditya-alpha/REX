@@ -8,7 +8,6 @@ import Home from './Home.jsx'
 // import About from './About.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,5 +16,4 @@ createRoot(document.getElementById('root')).render(
         {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </BrowserRouter>
-  </StrictMode>,
 )
